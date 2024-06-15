@@ -33,7 +33,7 @@ const PeopleList = ({ people }) => {
                 <span>Company - Position</span>
               </div>
             </th>
-            <th className="text-left">
+            <th className="text-left" style={{ width: "150px" }}>
               <div className="d-flex flex-column">
                 <span>Check-in</span>
                 <span>Check-out</span>
@@ -75,6 +75,9 @@ const PeopleList = ({ people }) => {
                   >
                     Check-out
                   </Button>
+                )}
+                {!person.showCheckinButton && !person.showCheckoutButton && (
+                  <div className="label label-gray">Checked out</div>
                 )}
               </td>
             </tr>

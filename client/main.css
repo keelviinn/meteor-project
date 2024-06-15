@@ -146,6 +146,37 @@ td {
   }
 }
 
+/* Labels CSS */
+.label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.label-green {
+  background: #28a745;
+  color: #ffffff;
+}
+
+.label-red {
+  background: #dc3545;
+  color: #ffffff;
+}
+
+.label-yellow {
+  background: #ffc107;
+  color: #ffffff;
+}
+
+.label-gray {
+  background: #6c757d;
+  color: #ffffff;
+}
+
 /* Select Component CSS */
 .select {
   position: relative;
